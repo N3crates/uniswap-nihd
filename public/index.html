@@ -1,43 +1,246 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Principal - UniSwap</title>
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>
+      UniSwap GTO | Encuentra algo genial
+    </title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-<script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
-</head>
-<body class="min-h-screen bg-slate-50 text-slate-800 font-['Plus_Jakarta_Sans']">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    >
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  </head>
+  <body class="min-h-screen bg-slate-50 text-slate-800 font-['Plus_Jakarta_Sans']">
     <header class="bg-white border-b border-slate-200">
-        <nav class="max-w-6xl mx-auto px-5 py-4 flex justify-between items-center">
-            <a href="index.html" class="text-2xl font-extrabold text-violet-700">
-                UniSwap - DICIS
-            </a>
-            <div class="flex items-center gap-5 text-sm font-bold">
-                <a href="index.html" class="text-violet-700">
-                    Explorar
-                </a>
-                <a href="publicar.html" class="inline-flex items-center justify-center rounded-xl bg-violet-700 px-5 py-3 font-bold text-white hover:bg-violet-800">
-                    Publicar
-                </a>
-            </div>
-       </nav>
+      <nav class="mx-auto max-w-6xl px-5 py-4 flex flex-wrap items-center justify-between gap-4">
+        <a href="index.html" class="text-2xl font-extrabold tracking-tight text-violet-700">
+          UniSwap
+          <span class="text-slate-800">
+            GTO
+          </span>
+        </a>
+        <div class="flex items-center gap-5 text-sm font-bold">
+          <a href="index.html" class="text-violet-700">
+            Explorar
+          </a>
+          <a href="publicar.html" class="inline-flex items-center justify-center rounded-xl bg-violet-700 px-5 py-3 font-bold text-white hover:bg-violet-800">
+            + Publicar
+          </a>
+        </div>
+      </nav>
     </header>
     <main class="max-w-6xl mx-auto px-5 py-8">
-        <section class="bg-linear-to-r from-violet-800 via-violet-600 to-teal-600 rounded-3xl p-8 md:p-12 text-white mb-10">
-
-        </section>
-        <section class="mb-5 flex flex-col md:flex-row md:items-end md:justify-between gap-4">
-
-        </section>
-        <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-5">
-
+      <section class="bg-linear-to-r from-violet-800 via-violet-600 to-teal-600 rounded-3xl p-8 md:p-12 text-white mb-10">
+        <span class="inline-block rounded-full bg-white/20 px-4 py-2 text-xs font-bold mb-5">
+          ♻️ Dale otra oportunidad a tus cosas
+        </span>
+        <h1 class="text-4xl md:text-5xl font-extrabold max-w-xl leading-tight">
+          Lo que ya no usas puede ser justo lo que alguien necesita.
+        </h1>
+        <p class="text-violet-100 mt-4 mb-7 max-w-lg">
+          Compra, vende o intercambia artículos entre estudiantes. Proyecto académico demostrativo.
+        </p>
+        <a href="publicar.html" class="inline-block rounded-xl bg-white text-violet-700 px-6 py-3 font-extrabold">
+          Publicar artículo →
+        </a>
+      </section>
+      <section class="mb-5 flex flex-col md:flex-row md:items-end md:justify-between gap-4">
+        <div>
+          <p class="text-xs font-bold text-violet-600 uppercase tracking-widest">
+            Explora el catálogo
+          </p>
+          <h2 class="text-3xl font-extrabold mt-1">
+            Encuentra tu próximo hallazgo
+          </h2>
         </div>
+        <div class="flex flex-wrap gap-2">
+          <span class="inline-block rounded-full bg-violet-100 px-3 py-1.5 text-xs font-bold text-violet-700">
+            Todos
+          </span>
+          <span class="inline-block rounded-full bg-violet-100 px-3 py-1.5 text-xs font-bold text-violet-700">
+            Libros
+          </span>
+          <span class="inline-block rounded-full bg-violet-100 px-3 py-1.5 text-xs font-bold text-violet-700">
+            Tecnología
+          </span>
+          <span class="inline-block rounded-full bg-violet-100 px-3 py-1.5 text-xs font-bold text-violet-700">
+            Accesorios
+          </span>
+        </div>
+      </section>
+      <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-5">
+        <article class="bg-white border border-slate-200 shadow-sm rounded-2xl overflow-hidden">
+          <div class="bg-linear-to-br from-violet-100 to-sky-100 h-48 flex items-center justify-center text-7xl" data-category="Libros">
+            📚
+          </div>
+          <div class="p-5">
+            <span class="inline-block rounded-full bg-violet-100 px-3 py-1.5 text-xs font-bold text-violet-700">
+              Libros
+            </span>
+            <h3 class="font-extrabold text-lg mt-3">
+              Cálculo diferencial
+            </h3>
+            <p class="text-slate-500 text-sm">
+              Buen estado · DICIS
+            </p>
+            <div class="flex justify-between items-center mt-4">
+              <strong class="text-2xl">
+                $180 MXN
+              </strong>
+              <a class="text-violet-700 font-bold text-sm" href="detalle.html">
+                Ver detalle →
+              </a>
+            </div>
+          </div>
+        </article>
+        <article class="bg-white border border-slate-200 shadow-sm rounded-2xl overflow-hidden">
+          <div class="bg-linear-to-br from-violet-100 to-sky-100 h-48 flex items-center justify-center text-7xl" data-category="Tecnología">
+            💻
+          </div>
+          <div class="p-5">
+            <span class="inline-block rounded-full bg-violet-100 px-3 py-1.5 text-xs font-bold text-violet-700">
+              Tecnología
+            </span>
+            <h3 class="font-extrabold text-lg mt-3">
+              Teclado mecánico
+            </h3>
+            <p class="text-slate-500 text-sm">
+              Nuevo · Salamanca
+            </p>
+            <div class="flex justify-between items-center mt-4">
+              <strong class="text-2xl">
+                $450 MXN
+              </strong>
+              <a class="text-violet-700 font-bold text-sm" href="detalle.html">
+                Ver detalle →
+              </a>
+            </div>
+          </div>
+        </article>
+        <article class="bg-white border border-slate-200 shadow-sm rounded-2xl overflow-hidden">
+          <div class="bg-linear-to-br from-violet-100 to-sky-100 h-48 flex items-center justify-center text-7xl" data-category="Accesorios">
+            🎧
+          </div>
+          <div class="p-5">
+            <span class="inline-block rounded-full bg-violet-100 px-3 py-1.5 text-xs font-bold text-violet-700">
+              Accesorios
+            </span>
+            <h3 class="font-extrabold text-lg mt-3">
+              Audífonos inalámbricos
+            </h3>
+            <p class="text-slate-500 text-sm">
+              Buen estado · Irapuato
+            </p>
+            <div class="flex justify-between items-center mt-4">
+              <strong class="text-2xl">
+                $320 MXN
+              </strong>
+              <a class="text-violet-700 font-bold text-sm" href="detalle.html">
+                Ver detalle →
+              </a>
+            </div>
+          </div>
+        </article>
+      </div>
     </main>
     <footer class="text-center p-8 text-slate-500 text-sm">
-        UniSwap - DICIS | Aplicación Educativa | Sesion - 01
+      UniSwap GTO · Aplicación educativa · Sesión 01 (prototipo estático)
     </footer>
-</body>
+  </body>
+</html>
+```
+
+### Archivo: `public/publicar.html`
+
+Formulario visual sin guardar datos.
+
+```html
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>
+      Publicar | UniSwap GTO
+    </title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    >
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  </head>
+  <body class="min-h-screen bg-slate-50 text-slate-800 font-['Plus_Jakarta_Sans']">
+    <header class="bg-white border-b border-slate-200">
+      <nav class="max-w-4xl mx-auto px-5 py-4 flex justify-between items-center">
+        <a href="index.html" class="text-2xl font-extrabold text-violet-700">
+          UniSwap GTO
+        </a>
+        <a href="index.html" class="inline-flex items-center justify-center rounded-xl border border-slate-300 bg-white px-5 py-3 font-bold text-slate-800 hover:border-violet-400 hover:text-violet-700">
+          ← Catálogo
+        </a>
+      </nav>
+    </header>
+    <main class="max-w-2xl mx-auto px-5 py-10">
+      <p class="text-violet-700 font-bold text-xs tracking-widest uppercase">
+        Prototipo UI · Sesión 01
+      </p>
+      <h1 class="text-3xl font-extrabold mt-2 mb-2">
+        Publica un artículo
+      </h1>
+      <p class="text-slate-500 mb-7">
+        Este formulario todavía no envía información. Conectaremos PHP en la sesión 03.
+      </p>
+      <form
+        class="bg-white border border-slate-200 shadow-sm rounded-3xl p-7 space-y-5"
+        onsubmit="event.preventDefault(); alert('¡Interfaz lista! En la sesión 03 implementaremos POST + SQLite.');"
+      >
+        <label class="block font-bold text-sm">
+          Título
+          <input class="w-full rounded-xl border border-slate-300 bg-white px-4 py-3 outline-none focus:border-violet-600 focus:ring-2 focus:ring-violet-200 mt-2" name="title" placeholder="Ej. Libro de cálculo" required>
+        </label>
+        <div class="grid sm:grid-cols-2 gap-4">
+          <label class="block font-bold text-sm">
+            Categoría
+            <select class="w-full rounded-xl border border-slate-300 bg-white px-4 py-3 outline-none focus:border-violet-600 focus:ring-2 focus:ring-violet-200 mt-2" name="category">
+              <option>
+                Libros
+              </option>
+              <option>
+                Tecnología
+              </option>
+              <option>
+                Accesorios
+              </option>
+              <option>
+                Hogar
+              </option>
+              <option>
+                Otros
+              </option>
+            </select>
+          </label>
+          <label class="block font-bold text-sm">
+            Precio (MXN)
+            <input class="w-full rounded-xl border border-slate-300 bg-white px-4 py-3 outline-none focus:border-violet-600 focus:ring-2 focus:ring-violet-200 mt-2" name="price" type="number" min="1" step="0.01" required>
+          </label>
+        </div>
+        <label class="block font-bold text-sm">
+          DescripciónUNISWAP_RAW_00000_TOKEN
+        </label>
+        <label class="block font-bold text-sm">
+          Nombre público (alias)
+          <input class="w-full rounded-xl border border-slate-300 bg-white px-4 py-3 outline-none focus:border-violet-600 focus:ring-2 focus:ring-violet-200 mt-2" name="seller" required>
+        </label>
+        <button class="inline-flex items-center justify-center rounded-xl bg-violet-700 px-5 py-3 font-bold text-white hover:bg-violet-800 w-full" type="submit">
+          Vista previa: publicar
+        </button>
+      </form>
+    </main>
+  </body>
 </html>
